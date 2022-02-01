@@ -29,7 +29,7 @@ h2 {
 .App {
   height: 100%;
   padding: 0 17% 10% 17%;
-  background-image: url('./background_photo_desktop.jpeg');
+  /* background-image: url('./ledzep.jpg'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -49,4 +49,16 @@ h2 {
     align-items: center;
     flex-direction: column;
   }
+}
+
+@media (max-width: 480px) {
+  .App {
+      background-image: url('./ledzepmobile.jpeg');
+  }
+}
+
+@media (min-width: 1025px) {
+  .App {
+    background-image: url('./ledzep.jpg');
+ }
 }
